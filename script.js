@@ -1,9 +1,21 @@
 //complete this code
-class Person {}
+class Person {
+	name:""
+	get name(nam){
+		this.name = nam;
+	}
+	set age(age){
+		this.age = age;
+	}
+}
 
-class Student extends Person {}
+class Student extends Person {
+	Person.nam = "Raj"
+}
 
-class Teacher extends Person {}
+class Teacher extends Person {
+	Person.nam = "Raj"
+}
 
 // Do not change the code below this line
 window.Person = Person;
